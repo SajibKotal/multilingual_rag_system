@@ -8,6 +8,7 @@ document corpus and generate a meaningful answer ground in retrieved content.
 ### File Structure
     multilingual_rag_system/
     │
+    ├── faiss_index                 # saved the indexing embedded to FAISS INDEX folder for vector store
     ├── main.py                     # FastAPI app 
     ├── RAG.py                      # RAG core logic
     ├── clean_text4.txt             # OCR output
